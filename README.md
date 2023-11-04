@@ -31,37 +31,3 @@ https://63481ec00484786c6e926453.mockapi.io/api/v1/actors
 
 ### Documentation de Spring Framework
 Fichier de configuration XML du contexte : https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#beans-factory-metadata
-
-## Structure de l'application principale 
-── pom.xml
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── fr
-│   │   │       └── epsi
-│   │   │           ├── actor
-│   │   │           │   ├── model
-│   │   │           │   │   └── Actor.java
-│   │   │           │   ├── repository
-│   │   │           │   │   ├── ActorRepository.java
-│   │   │           │   │   ├── DatabaseActorRepository.java
-│   │   │           │   │   └── WebserviceRepository.java
-│   │   │           │   ├── service
-│   │   │           │   │   ├── ActorService.java
-│   │   │           │   │   └── MyActorService.java
-│   │   │           │   └── web
-│   │   │           │       └── ActorControler.java
-│   │   │           ├── App.java
-│   │   │           └── context
-│   │   │               └── CustomContext.java
-│   │   ├── resources
-│   │   │   └── context.xml
-│   │   └── webapp
-│   │       └── WEB-INF
-│   │           └── web.xml
-│   └── test
-│       └── java
-│           └── fr
-│               └── epsi
-│                   └── AppTest.java
-
